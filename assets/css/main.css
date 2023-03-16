@@ -71,8 +71,12 @@ input, select, textarea {
 	-ms-appearance: none;
 	appearance: none;
 }
-#logo{
-	color: red;
+header #logo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 200px;
+	height: 200px;
 }
 
 /* Basic */
@@ -87,6 +91,13 @@ input, select, textarea {
 
 		html, body {
 			min-width: 320px;
+		}
+		#logo{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 200px;
+			height: 200px;
 		}
 
 	}
@@ -126,6 +137,13 @@ input, select, textarea {
 			html {
 				font-size: 12pt;
 			}
+			#logo{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				width: 200px;
+				height: 200px;
+			}
 
 		}
 
@@ -133,6 +151,13 @@ input, select, textarea {
 
 			html {
 				font-size: 11pt;
+			}
+			#logo{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				width: 200px;
+				height: 200px;
 			}
 
 		}
@@ -891,7 +916,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			#main {
-				background: rgba(255, 255, 255, 0.925);
+				background: linear-gradient(45deg, #Ba9f80, #60643e, #53432c) ;
 			}
 
 				#main .toggle {
@@ -908,7 +933,7 @@ input, select, textarea {
 				-ms-transition: opacity 0.5s ease, visibility 0.5s;
 				transition: opacity 0.5s ease, visibility 0.5s;
 				width: 100%;
-				background: #fff;
+				background: linear-gradient(45deg, #Ba9f80, #60643e, #53432c) ;
 				text-align: center;
 			}
 
@@ -926,7 +951,13 @@ input, select, textarea {
 				#main .toggle {
 					display: none;
 				}
-
+				#logo{
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					width: 200px;
+					height: 200px;
+				}
 		}
 
 /* Header */
@@ -938,6 +969,13 @@ input, select, textarea {
 		#header h1 {
 			font-size: 2.25em;
 			font-weight: 700;
+		}
+		#logo{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 200px;
+			height: 200px;
 		}
 
 /* Footer */
@@ -1029,6 +1067,13 @@ input, select, textarea {
 
 			#thumbnails article .thumbnail:before {
 				display: none;
+			}
+			#logo{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				width: 200px;
+				height: 200px;
 			}
 
 		}
@@ -1349,6 +1394,13 @@ input, select, textarea {
 					-ms-transition-delay: 0.5s;
 					transition-delay: 0.5s;
 					opacity: 1;
+				}
+				#logo{
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					width: 200px;
+					height: 200px;
 				}
 
 		}
